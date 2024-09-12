@@ -1,0 +1,7 @@
+stages:
+  - name: "Build"
+    script: "scripts/build.sh"
+  - name: "Test"
+    script: "scripts/test.sh"
+  - name: "Deploy"
+    script: "scripts/deploy.sh"
