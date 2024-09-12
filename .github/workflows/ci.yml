@@ -31,5 +31,4 @@ jobs:
     needs: build
     steps:
       - name: Deploy to Kubernetes
-        run: |
-          kubectl apply -f deploy/k8s.yaml
+        run: kubectl apply -f deploy/k8s.yaml
