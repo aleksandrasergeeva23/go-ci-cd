@@ -1,6 +1,6 @@
 module github.com/aleksandrasergeeva23/go-ci-cd
 
-go 1.23
+go 1.17
 
 require (
 	github.com/Microsoft/go-winio v0.4.14 // indirect
